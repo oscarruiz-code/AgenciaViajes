@@ -1,0 +1,32 @@
+### Crear Hotel 1
+POST http://localhost:8081/hotels
+Content-Type: application/json
+
+{
+  "nombre": "Hotel Ejemplo 1",
+  "categoria": "5 estrellas",
+  "precio": 150.0,
+  "disponible": true
+}
+
+### Crear Hotel 2
+POST http://localhost:8081/hotels
+Content-Type: application/json
+
+{
+  "nombre": "Hotel Ejemplo 2",
+  "categoria": "4 estrellas",
+  "precio": 120.0,
+  "disponible": true
+}
+
+### Crear Hotel 3
+POST http://localhost:8081/hotels
+Content-Type: application/json
+
+{
+  "nombre": "Hotel Ejemplo 3",
+  "categoria": "3 estrellas",
+  "precio": 80.0,
+  "disponible": true
+}

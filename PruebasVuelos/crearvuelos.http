@@ -1,0 +1,21 @@
+### Crear Vuelo 1
+POST http://localhost:8082/flights
+Content-Type: application/json
+
+{
+  "compania": "Aerolínea Ejemplo 1",
+  "fecha": "2023-12-25",
+  "precio": 200.0,
+  "plazasDisponibles": 100
+}
+
+### Crear Vuelo 2
+POST http://localhost:8082/flights
+Content-Type: application/json
+
+{
+  "compania": "Aerolínea Ejemplo 2",
+  "fecha": "2023-12-30",
+  "precio": 250.0,
+  "plazasDisponibles": 80
+}

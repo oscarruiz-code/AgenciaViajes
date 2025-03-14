@@ -1,0 +1,21 @@
+### Crear Reserva 1
+POST http://localhost:8083/reservations
+Content-Type: application/json
+
+{
+  "nombreUsuario": "Juan Pérez",
+  "dni": "12345678A",
+  "hotelId": 1,
+  "vueloId": 1
+}
+
+### Crear Reserva 2
+POST http://localhost:8083/reservations
+Content-Type: application/json
+
+{
+  "nombreUsuario": "Ana García",
+  "dni": "87654321B",
+  "hotelId": 2,
+  "vueloId": 2
+}

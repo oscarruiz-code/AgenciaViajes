@@ -1,0 +1,2 @@
+### Obtener todas las reservas
+GET http://localhost:8083/reservations

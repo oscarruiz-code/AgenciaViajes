@@ -1,0 +1,2 @@
+### Obtener todos los hoteles a través del API Gateway
+GET http://localhost:8080/hotels

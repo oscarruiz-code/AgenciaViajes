@@ -1,0 +1,10 @@
+### Actualizar hotel por ID (reemplaza {id} con un ID válido)
+PUT http://localhost:8081/hotels/1
+Content-Type: application/json
+
+{
+  "nombre": "Hotel Ejemplo 20 Actualizado",
+  "categoria": "5 estrellas",
+  "precio": 200.0,
+  "disponible": true
+}

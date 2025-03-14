@@ -1,0 +1,10 @@
+### Crear reserva a través del API Gateway
+POST http://localhost:8080/reservations
+Content-Type: application/json
+
+{
+  "nombreUsuario": "Carlos López",
+  "dni": "11223344C",
+  "hotelId": 3,
+  "vueloId": 2
+}

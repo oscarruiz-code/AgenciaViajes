@@ -1,0 +1,10 @@
+### Actualizar vuelo por ID (reemplaza {id} con un ID válido)
+PUT http://localhost:8082/flights/1
+Content-Type: application/json
+
+{
+  "compania": "Aerolínea Ejemplo 1 Actualizada",
+  "fecha": "2023-12-25",
+  "precio": 220.0,
+  "plazasDisponibles": 90
+}

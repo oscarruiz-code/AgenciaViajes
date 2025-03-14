@@ -1,0 +1,2 @@
+### Obtener vuelo por ID (reemplaza {id} con un ID válido)
+GET http://localhost:8082/flights/1
